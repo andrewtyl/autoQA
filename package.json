@@ -1,17 +1,17 @@
 {
-  "name": "react-template",
-  "description": "A boilerplate for React, modified from Create React App. Please follow instructions in readme before starting project.",
-  "version": "1.1.0",
+  "name": "autoQA",
+  "description": "Auto QA filler for KiwiCo internal use only. When fed the proper internal data, it will automatically generate prefilled QA forms. This will not function unless you have access to internal KiwiCo data.",
+  "version": "0.0.1",
   "author": "Andrew Jessen-Tyler",
-  "homepage": "",
-  "license": "MIT",
+  "homepage": "https://github.com/andrewtyl/autoQA",
+  "license": "AGPL-3.0-or-later",
   "engines": {
-    "node": "10.16.3",
+    "node": "10.19.0",
     "npm": "6.14.4"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/andrewtyl/autoQA.git"
   },
   "keywords": [
     "react"
