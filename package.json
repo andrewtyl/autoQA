@@ -1,13 +1,13 @@
 {
-  "name": "autoQA",
+  "name": "auto-qa",
   "description": "Auto QA filler for KiwiCo internal use only. When fed the proper internal data, it will automatically generate prefilled QA forms. This will not function unless you have access to internal KiwiCo data.",
   "version": "0.0.1",
   "author": "Andrew Jessen-Tyler",
   "homepage": "https://github.com/andrewtyl/autoQA",
   "license": "AGPL-3.0-or-later",
   "engines": {
-    "node": "10.19.0",
-    "npm": "6.14.4"
+    "node": "15.11.0",
+    "npm": "7.6.3"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "react-dom": "^16.13.1",
     "react-https-redirect": "^1.1.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^4.0.3",
     "serve": "^11.3.0"
   },
   "eslintConfig": {
