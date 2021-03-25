@@ -3,25 +3,25 @@ import React, {Component} from 'react';
 import './styles/normalize.css'
 import './styles/App.css';
 import HttpsRedirect from 'react-https-redirect';
+//import components
+import UploadAllChannels from './components/UploadAllChannels';
+import UploadEmail from './components/UploadEmail';
+import UploadVoice from './components/UploadVoice';
+import UploadChat from './components/UploadChat';
+import Results from './components/Results';
+const parse = require('csv-parse');
+const fs = require('fs');
 
 class App extends Component {
   render() {
     return (
       <HttpsRedirect>
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-      </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-      </a>
-        </header>
+        <UploadAllChannels />
+        <UploadEmail />
+        <UploadVoice />
+        <UploadChat />
+        <Results />
       </div>
       </HttpsRedirect>
     )
